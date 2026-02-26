@@ -1,4 +1,4 @@
-SELECT COUNT(*)  as TotalArtists
+SELECT COUNT(*) as TotalArtists
 FROM (
 	SELECT artists.Name
 	From artists
